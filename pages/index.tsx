@@ -23,7 +23,7 @@ const Home: NextPage = () => {
                     <div className={styles.ralewayFont}>
                         <p>Now teaching 12-18 year olds the skills they need to be prepared for a digital world.</p>
                         <p>Understand and create web pages. Own the technology that builds the future.</p>
-                        <div className="rounded-full bg-sky-600 text-white p-4 w-fit mt-4 font-bold">Sign Up Today</div>
+                        <a href="https://forms.gle/PbZfMB9D2fkoCUVe7"><div className="rounded-full bg-sky-600 text-white p-4 w-fit mt-4 font-bold">Sign Up Today</div></a>
                         <p className="font-bold">Courses start March 12</p>
                     </div>
                 </div>

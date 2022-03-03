@@ -9,6 +9,14 @@
     color: #FFF;
 }
 
+.courseHeader {
+    background-image: url('/computer-vscode.jpg');
+    background-position-y: center;
+    background-size: cover;
+    height: 200px;
+    color: #FFF;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;

@@ -5,8 +5,6 @@ export default function Header() {
             <div className="flex flex-row space-x-8">
                 <div><a href="/">Home</a></div>
                 <div><a href="courses">Courses</a></div>
-                <div><a href="#">Location</a></div>
-                <div><a href="#">Services</a></div>
                 <div><a href="#">About Us</a></div>
             </div>
         </div>)
