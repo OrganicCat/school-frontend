@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from './header'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
     return (
@@ -27,8 +28,8 @@ const Home: NextPage = () => {
                         <li>Introduction to CSS - 2 classes</li>
                         <li>Introduction to JavaScript - 2 classes</li>
                     </ul>
-                    <div>
-                        <a className="text-blue-400 underline" href="https://forms.gle/PbZfMB9D2fkoCUVe7">Sign up here</a>
+                    <div className="text-blue-400 underline">
+                        <Link href="https://forms.gle/PbZfMB9D2fkoCUVe7">Sign up here</Link>
                     </div>
 
                     <p className="pt-8 text-red-600">(not available yet)</p>
