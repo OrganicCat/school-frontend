@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 export default function Services() {
     return (
         <div className={`${styles.ralewayFont} flex mx-auto max-w-screen-lg justify-between py-12`}>
-            <div><Image src="/coder.jpeg" width={400} height={400} /></div>
+            <div><Image src="/coding-glasses.jpg" width={400} height={400} /></div>
             <div className="w-1/2">
                 <p className="font-bold text-xl">Services <span className="text-red-600">(not available yet)</span></p>
                 <p className="pb-8">Looking to give your organization a coding boost? We offer starter classes in JavaScript, React, in-depth CSS styling, and more!</p>
